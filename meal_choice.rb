@@ -1,5 +1,5 @@
 # Define a method meal_choice that returns the meal_choice that was
 # passed into it and defaults to meat.
-def meal_choice(meal(vegan)).to eq("meat")
+def meal_choice(meal).to eq("meat")
   puts "#{meal}"
 end
